@@ -1,0 +1,9 @@
+<img src ={require("../../../assets/Home/shape-bg.png").default} 
+            alt = "problem"
+            /> 
+
+
+            <img 
+            src={require("../../../assets/Home/shape.png").default} 
+            alt="problem"
+            /> 

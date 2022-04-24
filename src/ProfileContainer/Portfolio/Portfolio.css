@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+.portfolio{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 90px;
+}
+
+
+h1{
+    font-size: 50px;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 40px;
+}
+
+ul{
+    margin: 10px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+
+}
+
+
+
+
+.container{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 539px;
+
+    
+}
+.item{ 
+        width: 300px;
+        height: 200px;
+        border-radius: 20px; 
+        border: 1px solid lightgrey;
+        margin: 10px 20px;
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        transition: all .5 ease;
+        cursor: pointer;
+        
+}
+.container h3{
+    position: absolute; 
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px
+}
+
+.container img{
+    width: 297px;
+    height: 197px;
+    object-fit: cover;
+    z-index: 1;
+    border-radius: 20px;
+}
+
+.container img:hover{
+    
+    opacity: 0.1;
+    z-index: 20px;
+    color: rgb(122, 122, 252);
+}
+
+@media screen and (max-width: 1110px){
+
+
+    .portfolio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Rubik', sans-serif;
+        margin-top: 90px;
+        height: 450px;
+    }
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 41px;
+    margin-left: 22px;
+}
+
+.container {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 539px;
+}
+
+.container h3{
+    font-size: 12px;
+    margin-top: -9px;
+}
+
+.item {
+    width: 250px;
+    height: 150px;
+    border-radius: 20px;
+    border: 1px solid lightgrey;
+    margin: 10px 20px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: all .5 ease;
+    cursor: pointer;
+}
+
+.container img {
+    width: 247px;
+    height: 147px;
+    object-fit: cover;
+    z-index: 1;
+    border-radius: 20px;
+}
+
+}
+
+@media screen and (max-width: 426px){
+    .portfolio {
+        margin-top: 0px;
+    }
+    
+    .container h3 {
+        padding: 14px;
+    }
+}

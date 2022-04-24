@@ -1,0 +1,194 @@
+.aboutme {
+  height: 500px;
+  width: 100%;
+  margin-top: 150px;
+}
+
+.aboutme h1 {
+  text-align: center;
+}
+
+.about-container {
+  position: absolute;
+  height: 450px;
+  width: 86%;
+  background: #f9f8ff;
+  border-radius: 20px;
+
+  left: 96px;
+}
+
+.image {
+  position: absolute;
+}
+
+.name {
+  position: absolute;
+  top: 65px;
+  left: 505px;
+  width: 600px;
+  height: 400px;
+}
+
+.name b {
+  font-size: 20px;
+  color: #ff5823;
+}
+
+.name h2 {
+  font-size: 30px;
+  position: absolute;
+  margin-top: 5px;
+}
+.name span {
+  color: rgb(124, 124, 124);
+  margin-top: 60px;
+  position: absolute;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+  position: absolute;
+  right: -248px;
+  top: 364px;
+}
+
+@media screen and (max-width: 1110px) {
+  .aboutme {
+    margin-top: 270px;
+    height:374px;
+  }
+
+  .about-container {
+    position: absolute;
+    height: 374px;}
+
+  .aboutme img {
+    height: 214px;
+    width: 198px;
+    position: absolute;
+    left: 44px;
+    top: 47px;
+  }
+
+  .name{
+    position: absolute;
+    top: 65px;
+    left: 263px;
+    width: 373px;
+    height: 212px;
+    overflow: hidden;
+
+  }
+
+  .icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    position: absolute;
+    right: -389px;
+    top: 302px;
+  }
+
+  .name h2 {
+    font-size: 15px;
+    position: absolute;
+    margin-top: 5px;
+}
+
+.name span {
+    color: rgb(124, 124, 124);
+    margin-top: 60px;
+    position: absolute;
+    font-size: 12px;
+}
+
+.aboutme h1 {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 40px;
+    margin-right: -50px;
+}
+
+}
+
+@media screen and (max-width: 426px){
+
+
+    .aboutme {
+        margin-top: 737px;
+    height: 353px;
+      }
+    
+      .about-container {
+        position: absolute;
+    height: 371px;
+    margin-left: -77px;
+    width: 361px;
+}
+    
+      .aboutme img {
+        height: 120px;
+    width: 110px;
+    position: absolute;
+    left: 21px;
+    top: 89px;
+      }
+    
+      .name{
+        position: absolute;
+    top: 71px;
+    left: 146px;
+    width: 373px;
+    height: 212px;
+    overflow: hidden;
+    font-size: 10px;
+    
+      }
+    
+      .icons {
+        display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    position: absolute;
+    right: -279px;
+    top: 297px;
+    height: 10px;
+      }
+    
+      .name h2 {
+        font-size: 10px;
+        position: absolute;
+        margin-top: 5px;
+    }
+    
+    .name span {
+        color: rgb(124, 124, 124);
+        margin-top: 34px;
+        position: absolute;
+        font-size: 8px;
+        width: 184px;
+    }
+    .name b {
+        font-size: 12px;
+        color: #ff5823;
+    }
+    .aboutme h1 {
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Rubik', sans-serif;
+        margin-bottom: 20px;
+        margin-right: -50px;
+    }
+    
+
+}
